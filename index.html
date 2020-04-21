@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-widh, initial-scale=1.0">
+	<title>GeoLocalizador</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center">GeoLocalizador</h1>
+		<form>
+			<div class="form-group">
+				<label for="pokemon">Localização</label>
+				<div class="btn-group" role="group" aria-label="Exemplo básico">
+  					<button type="button" class="btn btn-secondary" id="forward">Forward</button>
+  					<button type="button" class="btn btn-secondary" id="reverse">Reverse</button>
+  					<button type="button" class="btn btn-secondary" id="position">Localização Atual</button>
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="geo">
+				<small id="help"></small><br>
+				<button type="button" class="btn btn-secondary btn-lg btn-block" id="btt">Buscar</button>
+			</div>
+			<div class="form-group" id="informes">
+				
+			</div>
+		</form>
+	</div>
+
+<script src="src/js/main.js"></script>
+
+
+</body>
+</html>
